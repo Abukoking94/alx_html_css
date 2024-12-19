@@ -16,5 +16,6 @@ article {
 
 aside {
   flex: 1;
+  background-color: rgb(117, 126, 126);
   overflow-y: auto;
 }
