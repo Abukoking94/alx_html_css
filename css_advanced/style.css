@@ -30,7 +30,7 @@ body {
 
 .main-section {
   padding-top: 3.75rem;
-  height: 1100px;
+  height: auto;
   width: 100%;
   background-image: url(images/background.png);
   background-position: center;
@@ -78,6 +78,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top:70px ;
+  padding-bottom: 70px;
 }
 
 .main-heading {
@@ -110,7 +114,8 @@ a {
   gap: 30px;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }
 
 .header-pro {
@@ -132,6 +137,7 @@ strong {
   gap: 2rem;
   width: 100%;
   height: auto;
+  flex-wrap: wrap;
 }
 
 .pro-boxes {
@@ -165,7 +171,8 @@ strong {
 
 .quote-section {
   width: 100%;
-  height: 400px;
+  height: auto;
+  padding: 70px;
   background-color: #c271ff;
   display: flex;
   justify-content: center;
@@ -215,13 +222,16 @@ strong {
 
 .tutorial-section {
   width: 100%;
-  height: 625px;
+  height: auto;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  flex: wrap;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .tutorial-header {
@@ -234,8 +244,8 @@ strong {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  width: 1228px;
-  height: 450px;
+  width: 100%;
+  height: auto;
   flex-wrap: wrap;
 }
 
@@ -280,7 +290,7 @@ strong {
 
 .membership-section {
   width: 100%;
-  height: 502px;
+  height: auto;
   background-color: #071629;
   color: white;
   display: flex;
@@ -288,6 +298,9 @@ strong {
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .member-header {
@@ -300,6 +313,7 @@ strong {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .member-box {
